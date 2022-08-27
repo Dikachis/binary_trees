@@ -1,36 +1,6 @@
 #include "binary_trees.h"
 
 /**
- * find_node - Finds a node with a given value in a binary search tree.
- * @root: The root of the binary search tree.
- * @value: The value of the node.
- *
- * Return: A pointer to the found node, otherwise NULL.
- */
-bst_t *find_node(bst_t *root, int value)
-{
-	bst_t *node = NULL;
-
-	if (root != NULL)
-	{
-		if (root->left != NULL)
-			node = root->left->parent;
-		if ((node == NULL) && (root->right != NULL))
-			node = root->right->parent;
-		while (node != NULL)
-		{
-			if (node->n < value)
-				node = node->right;
-			else if (node->n > value)
-				node = node->left;
-			else
-				break;
-		}
-	}
-	return (node);
-}
-
-/**
  * replace_with_successor - Replaces a node with its inorder \
  * successor in a binary search tree.
  * @node: A pointer to the node in the binary search tree.
@@ -92,7 +62,7 @@ bst_t *bst_remove(bst_t *root, int value)
 
 	if (new_root != NULL)
 	{
-		node = find_node(root, value);
+		node = bst_search(root, value);
 		if ((node != NULL) && (node->n == value))
 		{
 			if ((node->left == NULL) && (node->right == NULL))
