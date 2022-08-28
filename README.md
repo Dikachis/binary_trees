@@ -365,7 +365,7 @@ This function is used only for visualisation purpose. You don't have to push it 
       <span class="alert alert-info mandatory-optional">
         #advanced
       </span>
-</h4><p>Write a function that checks if a binary tree is a valid <a href="/rltoken/L2CpULSk9hQEOBKaGI8IkQ" target="_blank" title="Binary Search Tree">Binary Search Tree</a></p><ul>
+</h4><p>Write a function that checks if a binary tree is a valid <a href="https://en.wikipedia.org/wiki/Binary_search_tree" target="_blank" title="Binary Search Tree">Binary Search Tree</a></p><ul>
 <li>Prototype: <code>int binary_tree_is_bst(const binary_tree_t *tree);</code></li>
 <li>Where <code>tree</code> is a pointer to the root node of the tree to check</li>
 <li>Your function must return <code>1</code> if <code>tree</code> is a valid BST, and <code>0</code> otherwise</li>
@@ -453,7 +453,7 @@ https://en.wikipedia.org/wiki/AVL_tree
       <span class="alert alert-info mandatory-optional">
         #advanced
       </span>
-</h4><p>Write a function that checks if a binary tree is a valid <a href="https://en.wikipedia.org/wiki/AVL_tree">AVL Tree</a></p><ul>
+</h4><p>Write a function that checks if a binary tree is a valid <a href="https://en.wikipedia.org/wiki/AVL_tree" target="_blank" title="AVL Tree">AVL Tree</a></p><ul>
 <li>Prototype: <code>int binary_tree_is_avl(const binary_tree_t *tree);</code></li>
 <li>Where <code>tree</code> is a pointer to the root node of the tree to check</li>
 <li>Your function must return <code>1</code> if <code>tree</code> is a valid AVL Tree, and <code>0</code> otherwise</li>
