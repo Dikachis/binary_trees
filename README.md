@@ -24,6 +24,15 @@ This project is about Binary Trees in C and other tree-type data structures.
 - The prototypes of all the functions were included in the header file called ```binary_trees.h```
 - All the header files are include guarded
 
+### Resources
+***Read or watch:**
+* [Binary tree](https://en.wikipedia.org/wiki/Binary_tree)
+* [Binary Tree | Set 1 (Introduction)](https://www.geeksforgeeks.org/binary-tree-set-1-introduction/)
+* [Data Structure and Algorithms - Tree](https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm)
+* [Tree Traversal](https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm)
+* [Binary Search Tree]()
+* [Data structures: Binary Tree](https://www.youtube.com/watch?v=H5JubkIy_p8)
+
 ### Data Structures
 ```C
 /**
@@ -446,7 +455,7 @@ This function is used only for visualisation purpose. You don't have to push it 
 <li>Removing the node with the value <code>n</code></li>
 <li>Searching for a node in a BST of size n</li>
 </ul>
-https://en.wikipedia.org/wiki/AVL_tree
+
 
 <h4 class="task">
     30. Is AVL
@@ -543,7 +552,7 @@ https://en.wikipedia.org/wiki/AVL_tree
       <span class="alert alert-info mandatory-optional">
         #advanced
       </span>
-</h4><p>Write a function that checks if a binary tree is a valid <a href="/rltoken/St8ewcG2JJuWmkSNTfe29g" target="_blank" title="Max Binary Heap">Max Binary Heap</a></p><ul>
+</h4><p>Write a function that checks if a binary tree is a valid <a href="https://en.wikipedia.org/wiki/Binary_heap" target="_blank" title="Max Binary Heap">Max Binary Heap</a></p><ul>
 <li>Prototype: <code>int binary_tree_is_heap(const binary_tree_t *tree);</code></li>
 <li>Where <code>tree</code> is a pointer to the root node of the tree to check</li>
 <li>Your function must return <code>1</code> if <code>tree</code> is a valid Max Binary Heap, and <code>0</code> otherwise</li>
