@@ -32,7 +32,7 @@ static bst_t *remove_node(bst_t **root, int value)
 		{
 			parent = node->parent, src = parent;
 			plink = parent == NULL ? root : parent->n > node->n ? &parent->left
-																													: &parent->right;
+			: &parent->right;
 			if (node->right == NULL && node->left == NULL)
 				*plink = NULL;
 			else if (node->right == NULL)
