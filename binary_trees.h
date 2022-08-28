@@ -92,9 +92,6 @@ int btih_helper(const binary_tree_t *tree);
 void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
 bst_t *find_node(bst_t *root, int value);
 bst_t *replace_with_successor(bst_t **node);
-void check_balance(avl_t **node, int value);
-avl_t *avl_in(avl_t **tree, int value);
-avl_t *avl_insert(avl_t **tree, int value);
 
 
 #endif /* BINARY_TREES */
