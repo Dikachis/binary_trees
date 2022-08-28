@@ -92,6 +92,7 @@ int btih_helper(const binary_tree_t *tree);
 void sata_helper(avl_t **root, int *array, size_t lo, size_t hi);
 bst_t *find_node(bst_t *root, int value);
 bst_t *replace_with_successor(bst_t **node);
+avl_t *array_to_avl(int *array, size_t size);
 
 
 #endif /* BINARY_TREES */
